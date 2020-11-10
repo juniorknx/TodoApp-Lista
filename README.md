@@ -2,5 +2,5 @@
 
 
 <div class="screen">
-<img src="assets/images/fullscreenshot.png" style="width:50%">
+<img src="assets/images/fullscreenshot.png" width="50%">
 </div>
