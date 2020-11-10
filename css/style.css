@@ -23,11 +23,11 @@ a {
     box-sizing: border-box;
 }
 
-/* CONTAINER */ 
+/* TO-DO STYLES */ 
 
 #app {
     max-width: 400px;
-    margin: 80px auto;
+    margin: 45px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -53,11 +53,11 @@ a {
 #app button {
     border: none;
     padding: 9px 0px;
-    background-color: #54c054;
+    background-color: #41c47a;
     font-family: 'Poppins';
     text-transform: uppercase;
     color: #fff !important;
-    border-radius: 18px;
+    border-radius: 3px;
     transition: 0.3ms;
 }
 
@@ -69,6 +69,19 @@ a {
     padding: 2px 6px;
     border-radius: 3px;
     margin-left: 9px;
+}
+
+/* Hero */ 
+
+.hero {
+    max-width: 400px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    width: 47%;
 }
 
 footer {
@@ -84,3 +97,4 @@ footer p {
 footer a {
     color: #b1b1b1;
 }
+
