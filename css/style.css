@@ -89,7 +89,7 @@ input:focus {
 }
 
 .hero img {
-    width: 47%;
+    max-width: 70%;
 }
 
 footer {
