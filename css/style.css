@@ -61,17 +61,6 @@ a {
     transition: 0.3ms;
 }
 
-#app button:hover {
-    border: none;
-    padding: 9px 0px;
-    background-color: #5da75d;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    color: #fff !important;
-    border-radius: 18px;
-    transition: 0.3ms;
-}
-
 
 #app a {
     color: #fff;
