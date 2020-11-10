@@ -1,0 +1,97 @@
+/* GLOBAL STYLES */ 
+
+body, h1, h2, h3, p, ul, li a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    color: #222222;
+    background: rgb(18, 18, 20);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CONTAINER */ 
+
+#app {
+    max-width: 400px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 57px;
+}
+
+#app li {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 4px 0px;
+    color: #fff;
+}
+
+#app input {
+    font-family: 'Poppins';
+    padding: 8px 6px;
+    font-size: 11px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
+#app button {
+    border: none;
+    padding: 9px 0px;
+    background-color: #54c054;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 18px;
+    transition: 0.3ms;
+}
+
+#app button:hover {
+    border: none;
+    padding: 9px 0px;
+    background-color: #5da75d;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 18px;
+    transition: 0.3ms;
+}
+
+
+#app a {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 9px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color:#4e4e4e;
+    
+}
+
+footer a {
+    color: #b1b1b1;
+}
